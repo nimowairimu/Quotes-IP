@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { HighlightvotesDirective } from './highlightvotes.directive'
+import { HighlightvotesDirective } from './highlightvotes.directive';
+import { DateCountPipe } from './date-count.pipe'
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HighlightvotesDirective } from './highlightvotes.directive'
     QuoteComponent,
     QuoteDetailComponent,
     HighlightvotesDirective,
+    DateCountPipe,
 
   ],
   imports: [
