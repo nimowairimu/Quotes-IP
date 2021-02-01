@@ -2,7 +2,7 @@
  <hr>
  <ul>
      <div *ngFor='let quote of quotes;let i = index'>
-         <li appHighlightvote>{{quote.content}}</li>
+         <li appHighlightvote>{{quote.content}} posted on {{quote.datePosted|date}}</li>
          <button (click)='toggleDetails(i)'>Toggle details</button>
          <app-quote-detail *ngIf= 'quote.showDetails'[quote]='quote'
          (isRead)= 'readQuote($event,i)'>

@@ -9,10 +9,10 @@ import { Quote } from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote('go outside its nice and hot','Nimo','Rupi Kaur',0,0),
-   new Quote ('go outside its nice and hot','Nimo','Ainstein',0,0),
-   new Quote ('go outside its nice and hot','Nimo','Nimo',0,0),
-  new Quote('go outside its nice and hot','Nimo','Nims',0,0),
+    new Quote('go outside its nice and hot','Nimo','Rupi Kaur',0,0, new Date(2020,9,12)),
+   new Quote ('go outside its nice and hot','Nimo','Ainstein',0,0,new Date (2020,9,8)),
+   new Quote ('go outside its nice and hot','Nimo','Nimo',0,0, new Date (2020,8,9)),
+  new Quote('go outside its nice and hot','Nimo','Nims',0,0,new Date (2020,6,7)),
   ];
 
   toggleDetails(index){
