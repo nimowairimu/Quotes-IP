@@ -3,9 +3,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
+# Author 
+
+Mungai Irene Wairimu 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Setup Instructions 
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone https://github.com/Owiti-Charles/Quotes-app.git
+
+* cd Quotes
+
+* Open with the text editor you have.
 
 ## Code scaffolding
 
@@ -26,44 +39,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Quotes-IP
-=======
-#  PROJECT NAME
-  Delani Studio
-
-
-#  PROJECT DESCRIPTION
-This is a landing page for a fictional studio that helps to better learns snd practice jQuery and Bootstrap.
-
-
-#  AUTHOR'S INFORMATION
-  Author is Irene Wairimu Mungai, A student at Moringa School.
-  There were no contributors apart from Irene Mungai only.
-
-#  SET UP INSTRUCTIONS
-1. Clone the Repository
-    git clone https://github.com/nimowairimu/Delani-Studio-.git
-1. Switch to the Directory
-   ./Index. html  and use a text editor like atom, notepad,visual studio code or any other to view the code.
-1. Open your web browser in order to have a look and feel of the site.
-
-
-#   BDD.
-1. Under what we do, clicking on the image will toggle a paragraph explaining about the service.
-1. Hovering over each image will show a white box with the name of the image.
-1. Upon entering your details and message in the contact-us form, the data will be sent to mailchimp and you will receive a confirmation message thanking you for contacting them.
-1.   In case, submit form is entered without any values in the form, an alert message will pop-up telling you to put in valid information. ​
-
-
-# Live Links
-You can view the live application by following this link https://nimowairimu.github.io/Delani-Studio-/
-
-
-#   TECHNOLOGY USED
-  * HTML ,CSS, Javascript
-  * Bootstrap
-  * Jquery
-
 
 #  CONTACT INFORMATION
   - You can provide feedback or raise any issues/ bugs through my [Email](nimowairimu25@gmail.com)
@@ -71,7 +46,7 @@ You can view the live application by following this link https://nimowairimu.git
 
 
 #  LICENCE AND COPYRIGHT INFORMATION
-opyright 2020 - Wairimu Mungai
+Copyright 2020 - Wairimu Mungai
 
 ​
 
@@ -88,5 +63,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ​
 
 Reference: [MIT License](https://opensource.org/licenses/MIT
-# Quotes
->>>>>>> ffc9a4d1ecd3e545ee5350b27ee53ad93633b7e4
