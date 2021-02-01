@@ -10,12 +10,10 @@ import { Quote } from '../quote'
 })
 export class QuoteFormComponent implements OnInit {
  newQuote= new Quote("","","",0,0,new Date());
- quote = new Quote("","","",0,0,new Date());
- @Output() add = new EventEmitter<Quote>();
+ @Output() addQuote = new EventEmitter<Quote>();
 
- addQuote(){
-this.add.emit(this.quote);
-this.quote = new Quote("","","",0,0,new Date());
+ submitQuote(){
+   this.addQuote.emit(this.newQuote);
  }
   constructor() { }
 
