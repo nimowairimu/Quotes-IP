@@ -7,15 +7,16 @@ export class HighlightvotesDirective {
 
   constructor(private elem:ElementRef) { 
 }
+@HostListener("click") onClicks(){
+  this.textDeco("#C11D1D")
+}
+
+@HostListener("dblclick") onDoubleClicks(){
+  this.textDeco("None")
+}
 private textDeco(action:string){
   this.elem.nativeElement.style.color=action;
 }
 
-@HostListener("click") onClicks(){
-  this.textDeco("green")
-}
 
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
   }
-}
