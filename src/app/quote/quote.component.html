@@ -11,9 +11,11 @@
          (isRead)= 'readQuote($event,i)'>
          ></app-quote-detail>
      </div>
- </ul>
- </div>
- <div>
-     <app-quote-form></app-quote-form>
- </div>
+  </ul>
+  </div>
+  <div>
+     <app-quote-form
+     (addQuote)="addNewQuote($event)"></app-quote-form>
+  </div>
+
  </div>
