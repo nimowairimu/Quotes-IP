@@ -1,7 +1,5 @@
- <div class="container-fluid">
-   <h1 class="text-center"> ADD QUOTE</h1>
-    <hr>
-    <form (ngSubmit)='addQuote'() #quoteForm='ngForm'>
+<h2 class="text-center"> ADD QUOTE</h2>
+    <form action="/action_page.php">
         <div class="form-group">
           <label for="name">Your Name</label>
           <input type="text" required class="form-control" id="username" [(ngModel)]="newQuote.username" name="name" #username='ngModel' minlength="3">

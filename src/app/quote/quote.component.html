@@ -1,5 +1,8 @@
 <div class="container-fluid">
-<h1>Quotes For Any Occasion </h1>
+<h1 class= "text-center">Quotes & Sayinga About Life </h1>
+<div class="jumbotron">
+  <p class="text-center">Quotes are very powerful. On the surface, they are just a bunch of words but when you ponder over them they reveal powerful ideas that resonate with your very core.</p>
+</div>
 <hr>
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
@@ -10,3 +13,10 @@
 </ul>
 </div>
 <br><br>
+<div class="container">
+  <div class="row">
+   <div class="col-md-6">
+    <app-quote-form></app-quote-form>
+   </div>
+  </div>
+</div>
