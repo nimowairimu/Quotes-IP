@@ -1,2 +1,5 @@
 <p>Posted by {{quote.username}} and it has upvotes{{quote.upvote}} and downvotes of {{quote.downvote}} posted {{quote.datePosted|dateCount}} days ago.</p>
 <button (click)='quoteRead(true)' class="btn btn-outline-danger">Delete Quote</button>
+<br>
+<button (click)='upvote(1)'class="btn btn-outline-success">Upvote</button>
+<button (click)='downvote(1)'class="btn btn-outline-danger">Downvote</button>
