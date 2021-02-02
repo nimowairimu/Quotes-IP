@@ -1,11 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+
 body{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image :url("../src/assets/pic1.jpg");
+  background-image : url("./src/assets/pic2.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-size: large;
-  
+  font-size: larger;
+  background-image: opacity 0.5;
+  font-weight: bolder;
 }
