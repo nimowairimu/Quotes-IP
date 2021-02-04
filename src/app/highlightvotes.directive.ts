@@ -8,7 +8,7 @@ export class HighlightvotesDirective {
   constructor(private elem:ElementRef) { 
 }
 @HostListener("click") onClicks(){
-  this.textDeco("#C11D1D")
+  this.textDeco("#red")
 }
 
 @HostListener("dblclick") onDoubleClicks(){
